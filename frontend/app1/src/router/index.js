@@ -7,7 +7,7 @@ import { routers } from './router'
  *   "abstract": createMemoryHistory()
  */
 const router = createRouter({
-    history: createWebHistory(),
+    history: createWebHistory(import.meta.env.VITE_BASE_PATH),
     routes: routers,
 })
 

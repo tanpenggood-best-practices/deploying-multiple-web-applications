@@ -1,8 +1,12 @@
 <template>
     <div>
-        <h1>Route List</h1>
-        <p><a href="/login">/login</a></p>
-        <p><a href="/version">/version</a></p>
+        <h1>App1 Route List</h1>
+        <p><router-link to="/home">/home</router-link></p>
+        <p><router-link to="/version">/version</router-link></p>
+    </div>
+    <div>
+        <h1>App2 Route List</h1>
+        <p><a href="/ui2/home">/home</a></p>
     </div>
     <div>
         <a href="https://vitejs.dev" target="_blank">
